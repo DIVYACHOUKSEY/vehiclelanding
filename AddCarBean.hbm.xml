@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="adminlogin.car">
+    <class name="AddCarBean" table="cardetail">
+    <id name="carno" column="carno"/>
+ <property name="carmodel" column="carmodel"/>
+    <property name="carvalidity" column="carvalidity"/>
+     <property name="caraverage" column="caraverage"/>
+  <property name="carcolor" column="carcolor"/>
+</class>
+</hibernate-mapping>

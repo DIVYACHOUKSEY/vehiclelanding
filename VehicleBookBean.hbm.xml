@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="adminlogin.car">
+    <class name="VehicleBookBean" table="bookcar">
+         <id name="emailid" column="emailid"/>
+<property name="vehiclecategory" column="cartype"/>
+<property name="dateto" column="dateto"/>
+<property name="datefrom" column="datefrom"/>
+<property name="username" column="username"/>
+<property name="mobileno" column="mobileno"/>
+
+<property name="locationpickup" column="locationpickup"/>
+<property name="locationdrop" column="locationdrop"/>
+<property name="bookingdate" column="bookingdate"/>
+<property name="bookamount" column="bookamount"/>
+</class>
+</hibernate-mapping>

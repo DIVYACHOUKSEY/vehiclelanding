@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="adminlogin.car">
+ <class name="AddDriverBean" table="driverdetail">
+     <id name="contactno" column="contactno"/>
+    <property name="drivername" column="drivername"/>
+  <property name="emailid" column="emailid"/>
+   <property name="address" column="address"/>
+    <property name="licence" column="licence"/>
+    <property name="workingexperience" column="workingexperience"/>
+ </class>
+</hibernate-mapping>
